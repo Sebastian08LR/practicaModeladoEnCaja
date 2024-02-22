@@ -1,1 +1,1 @@
-![](https://github.com/Sebastian08LR/practicaModeladoEnCaja/blob/practicaFlex/img/practicaFlex.jpg)
+![](https://github.com/Sebastian08LR/practicaModeladoEnCaja/blob/practicaFlex/storage/img/practicaFlex.jpg)
