@@ -1,5 +1,86 @@
+@import url(variable.css);
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    background-color: #181818;
 }
+.menuHorizontal{
+    background-color: #181818;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 10%;
+    display: flex;
+    box-sizing: border-box;  
+}
+.logo img{
+    width: 90px;
+    align-self: center;
+}
+.elementList{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.elementList a{
+    text-decoration: none;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    transition: 0.3s ease;
+    color: white;
+}
+.elementList a:nth-child(1)
+{
+    color: #FF9933;
+    font-weight: bold;
+}
+.elementList a::after
+{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    bottom: 0;
+    background: #FF9933;
+    transition: 0.3s ease;
+}
+.elementList a:hover
+{
+    color: #FF9933;
+    transition: 0.3s ease;
+}
+.elementList a:hover::after
+{
+    width: 100%;
+    transition: 0.3s ease;
+}
+.lenguaje{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lenguaje a{
+    width: 40px;
+    height: 40px;
+    background-color: #FF9933 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 20px;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+}
+
+
