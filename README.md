@@ -1,1 +1,1 @@
-![](https://github.com/Sebastian08LR/practicaModeladoEnCaja/blob/ejercicio_2/img/ejercicio_2")
+![](https://github.com/Sebastian08LR/practicaModeladoEnCaja/blob/ejercicio_2/storage/img/ejercicio_2")
