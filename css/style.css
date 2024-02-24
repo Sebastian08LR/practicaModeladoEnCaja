@@ -12,11 +12,12 @@
     height: 100%;
 }
 .text{
+    padding: 15px;
     display: flex;
     position: relative;
     flex-direction: column;
-    width: 25%;
-    background-color: gray;
+    width: 13%;
+    background-color: #C7C7C7;
 }
 .text h1{
     box-sizing: border-box;
@@ -24,6 +25,7 @@
     font-size: 20px;
 }
 .text p{
+    margin-top: 15px;
     display: flex;
     box-sizing: border-box;
 }
